@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		640C49FB15E008A300A35D32 /* UIColor+VSClickWheelExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C49FA15E008A300A35D32 /* UIColor+VSClickWheelExtension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6436AC4D17C63AC4001DBEEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64674F5A15DD00CC0083404A /* UIKit.framework */; };
+		6436AC4E17C63AC4001DBEEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64674F5C15DD00CC0083404A /* Foundation.framework */; };
+		6436AC4F17C63AC4001DBEEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64674F5E15DD00CC0083404A /* CoreGraphics.framework */; };
+		6436AC5517C63AC4001DBEEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6436AC5317C63AC4001DBEEA /* InfoPlist.strings */; };
+		6436AC5717C63AC4001DBEEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6436AC5617C63AC4001DBEEA /* main.m */; };
+		6436AC5B17C63AC5001DBEEA /* ExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6436AC5A17C63AC5001DBEEA /* ExampleAppDelegate.m */; };
+		6436AC5D17C63AC5001DBEEA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6436AC5C17C63AC5001DBEEA /* Default.png */; };
+		6436AC5F17C63AC5001DBEEA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6436AC5E17C63AC5001DBEEA /* Default@2x.png */; };
+		6436AC6117C63AC5001DBEEA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6436AC6017C63AC5001DBEEA /* Default-568h@2x.png */; };
+		6436AC6417C63AC5001DBEEA /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6436AC6317C63AC5001DBEEA /* ExampleViewController.m */; };
+		6436AC6717C63AC5001DBEEA /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6436AC6517C63AC5001DBEEA /* ExampleViewController.xib */; };
+		645CB17E173413A000C03FFF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 645CB17D173413A000C03FFF /* Default-568h@2x.png */; };
+		64674F5B15DD00CC0083404A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64674F5A15DD00CC0083404A /* UIKit.framework */; };
+		64674F5D15DD00CC0083404A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64674F5C15DD00CC0083404A /* Foundation.framework */; };
+		64674F5F15DD00CC0083404A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64674F5E15DD00CC0083404A /* CoreGraphics.framework */; };
+		64674F6515DD00CC0083404A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64674F6315DD00CC0083404A /* InfoPlist.strings */; };
+		64674F6715DD00CC0083404A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64674F6615DD00CC0083404A /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		64674F6B15DD00CC0083404A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64674F6A15DD00CC0083404A /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		64674F7115DD00CC0083404A /* ExampleViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64674F6F15DD00CC0083404A /* ExampleViewController_iPhone.xib */; };
+		64674F7415DD00CC0083404A /* ExampleViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64674F7215DD00CC0083404A /* ExampleViewController_iPad.xib */; };
+		64BF347615DD01280022FA31 /* VSClickWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BF347515DD01280022FA31 /* VSClickWheelView.m */; };
+		64BF347A15DD01470022FA31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BF347915DD01470022FA31 /* ViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		64C58E5E17C63E9900E97EE9 /* VSClickWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BF347515DD01280022FA31 /* VSClickWheelView.m */; };
+		64C58E5F17C63F2A00E97EE9 /* UIColor+VSClickWheelExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C49FA15E008A300A35D32 /* UIColor+VSClickWheelExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		640C49F915E008A300A35D32 /* UIColor+VSClickWheelExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+VSClickWheelExtension.h"; sourceTree = "<group>"; };
+		640C49FA15E008A300A35D32 /* UIColor+VSClickWheelExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VSClickWheelExtension.m"; sourceTree = "<group>"; };
+		6436AC4C17C63AC4001DBEEA /* VSClickWheelExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSClickWheelExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6436AC5217C63AC4001DBEEA /* VSClickWheelExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VSClickWheelExample-Info.plist"; sourceTree = "<group>"; };
+		6436AC5417C63AC4001DBEEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6436AC5617C63AC4001DBEEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6436AC5817C63AC4001DBEEA /* VSClickWheelExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VSClickWheelExample-Prefix.pch"; sourceTree = "<group>"; };
+		6436AC5917C63AC4001DBEEA /* ExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleAppDelegate.h; sourceTree = "<group>"; };
+		6436AC5A17C63AC5001DBEEA /* ExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleAppDelegate.m; sourceTree = "<group>"; };
+		6436AC5C17C63AC5001DBEEA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6436AC5E17C63AC5001DBEEA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6436AC6017C63AC5001DBEEA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6436AC6217C63AC5001DBEEA /* ExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		6436AC6317C63AC5001DBEEA /* ExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		6436AC6617C63AC5001DBEEA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ExampleViewController.xib; sourceTree = "<group>"; };
+		645CB17D173413A000C03FFF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		64674F5615DD00CC0083404A /* VSClickWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSClickWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64674F5A15DD00CC0083404A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64674F5C15DD00CC0083404A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64674F5E15DD00CC0083404A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64674F6215DD00CC0083404A /* VSClickWheel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VSClickWheel-Info.plist"; sourceTree = "<group>"; };
+		64674F6415DD00CC0083404A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64674F6615DD00CC0083404A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64674F6815DD00CC0083404A /* VSClickWheel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VSClickWheel-Prefix.pch"; sourceTree = "<group>"; };
+		64674F6915DD00CC0083404A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64674F6A15DD00CC0083404A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64674F7015DD00CC0083404A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ExampleViewController_iPhone.xib; sourceTree = "<group>"; };
+		64674F7315DD00CC0083404A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ExampleViewController_iPad.xib; sourceTree = "<group>"; };
+		64BF347415DD01280022FA31 /* VSClickWheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSClickWheelView.h; sourceTree = "<group>"; };
+		64BF347515DD01280022FA31 /* VSClickWheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSClickWheelView.m; sourceTree = "<group>"; };
+		64BF347815DD01470022FA31 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		64BF347915DD01470022FA31 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6436AC4917C63AC4001DBEEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6436AC4D17C63AC4001DBEEA /* UIKit.framework in Frameworks */,
+				6436AC4E17C63AC4001DBEEA /* Foundation.framework in Frameworks */,
+				6436AC4F17C63AC4001DBEEA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64674F5315DD00CC0083404A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64674F5B15DD00CC0083404A /* UIKit.framework in Frameworks */,
+				64674F5D15DD00CC0083404A /* Foundation.framework in Frameworks */,
+				64674F5F15DD00CC0083404A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6436AC5017C63AC4001DBEEA /* VSClickWheelExample */ = {
+			isa = PBXGroup;
+			children = (
+				6436AC5917C63AC4001DBEEA /* ExampleAppDelegate.h */,
+				6436AC5A17C63AC5001DBEEA /* ExampleAppDelegate.m */,
+				6436AC6217C63AC5001DBEEA /* ExampleViewController.h */,
+				6436AC6317C63AC5001DBEEA /* ExampleViewController.m */,
+				6436AC6517C63AC5001DBEEA /* ExampleViewController.xib */,
+				6436AC5117C63AC4001DBEEA /* Supporting Files */,
+			);
+			path = VSClickWheelExample;
+			sourceTree = "<group>";
+		};
+		6436AC5117C63AC4001DBEEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6436AC5217C63AC4001DBEEA /* VSClickWheelExample-Info.plist */,
+				6436AC5317C63AC4001DBEEA /* InfoPlist.strings */,
+				6436AC5617C63AC4001DBEEA /* main.m */,
+				6436AC5817C63AC4001DBEEA /* VSClickWheelExample-Prefix.pch */,
+				6436AC5C17C63AC5001DBEEA /* Default.png */,
+				6436AC5E17C63AC5001DBEEA /* Default@2x.png */,
+				6436AC6017C63AC5001DBEEA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64674F4B15DD00CC0083404A = {
+			isa = PBXGroup;
+			children = (
+				645CB17D173413A000C03FFF /* Default-568h@2x.png */,
+				640C49F915E008A300A35D32 /* UIColor+VSClickWheelExtension.h */,
+				640C49FA15E008A300A35D32 /* UIColor+VSClickWheelExtension.m */,
+				64674F6015DD00CC0083404A /* VSClickWheel */,
+				6436AC5017C63AC4001DBEEA /* VSClickWheelExample */,
+				64674F5915DD00CC0083404A /* Frameworks */,
+				64674F5715DD00CC0083404A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64674F5715DD00CC0083404A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64674F5615DD00CC0083404A /* VSClickWheel.app */,
+				6436AC4C17C63AC4001DBEEA /* VSClickWheelExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64674F5915DD00CC0083404A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64674F5A15DD00CC0083404A /* UIKit.framework */,
+				64674F5C15DD00CC0083404A /* Foundation.framework */,
+				64674F5E15DD00CC0083404A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64674F6015DD00CC0083404A /* VSClickWheel */ = {
+			isa = PBXGroup;
+			children = (
+				64BF347815DD01470022FA31 /* ViewController.h */,
+				64BF347915DD01470022FA31 /* ViewController.m */,
+				64BF347415DD01280022FA31 /* VSClickWheelView.h */,
+				64BF347515DD01280022FA31 /* VSClickWheelView.m */,
+				64674F6915DD00CC0083404A /* AppDelegate.h */,
+				64674F6A15DD00CC0083404A /* AppDelegate.m */,
+				64674F6F15DD00CC0083404A /* ExampleViewController_iPhone.xib */,
+				64674F7215DD00CC0083404A /* ExampleViewController_iPad.xib */,
+				64674F6115DD00CC0083404A /* Supporting Files */,
+			);
+			path = VSClickWheel;
+			sourceTree = "<group>";
+		};
+		64674F6115DD00CC0083404A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64674F6215DD00CC0083404A /* VSClickWheel-Info.plist */,
+				64674F6315DD00CC0083404A /* InfoPlist.strings */,
+				64674F6615DD00CC0083404A /* main.m */,
+				64674F6815DD00CC0083404A /* VSClickWheel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6436AC4B17C63AC4001DBEEA /* VSClickWheelExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6436AC6A17C63AC5001DBEEA /* Build configuration list for PBXNativeTarget "VSClickWheelExample" */;
+			buildPhases = (
+				6436AC4817C63AC4001DBEEA /* Sources */,
+				6436AC4917C63AC4001DBEEA /* Frameworks */,
+				6436AC4A17C63AC4001DBEEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VSClickWheelExample;
+			productName = VSClickWheelExample;
+			productReference = 6436AC4C17C63AC4001DBEEA /* VSClickWheelExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64674F5515DD00CC0083404A /* VSClickWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64674F7715DD00CC0083404A /* Build configuration list for PBXNativeTarget "VSClickWheel" */;
+			buildPhases = (
+				64674F5215DD00CC0083404A /* Sources */,
+				64674F5315DD00CC0083404A /* Frameworks */,
+				64674F5415DD00CC0083404A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VSClickWheel;
+			productName = VSClickWheel;
+			productReference = 64674F5615DD00CC0083404A /* VSClickWheel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64674F4D15DD00CC0083404A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Manuel Meyer";
+			};
+			buildConfigurationList = 64674F5015DD00CC0083404A /* Build configuration list for PBXProject "VSClickWheel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64674F4B15DD00CC0083404A;
+			productRefGroup = 64674F5715DD00CC0083404A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64674F5515DD00CC0083404A /* VSClickWheel */,
+				6436AC4B17C63AC4001DBEEA /* VSClickWheelExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6436AC4A17C63AC4001DBEEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6436AC5517C63AC4001DBEEA /* InfoPlist.strings in Resources */,
+				6436AC5D17C63AC5001DBEEA /* Default.png in Resources */,
+				6436AC5F17C63AC5001DBEEA /* Default@2x.png in Resources */,
+				6436AC6117C63AC5001DBEEA /* Default-568h@2x.png in Resources */,
+				6436AC6717C63AC5001DBEEA /* ExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64674F5415DD00CC0083404A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64674F6515DD00CC0083404A /* InfoPlist.strings in Resources */,
+				64674F7115DD00CC0083404A /* ExampleViewController_iPhone.xib in Resources */,
+				64674F7415DD00CC0083404A /* ExampleViewController_iPad.xib in Resources */,
+				645CB17E173413A000C03FFF /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6436AC4817C63AC4001DBEEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6436AC5717C63AC4001DBEEA /* main.m in Sources */,
+				6436AC5B17C63AC5001DBEEA /* ExampleAppDelegate.m in Sources */,
+				6436AC6417C63AC5001DBEEA /* ExampleViewController.m in Sources */,
+				64C58E5E17C63E9900E97EE9 /* VSClickWheelView.m in Sources */,
+				64C58E5F17C63F2A00E97EE9 /* UIColor+VSClickWheelExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64674F5215DD00CC0083404A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64674F6715DD00CC0083404A /* main.m in Sources */,
+				64674F6B15DD00CC0083404A /* AppDelegate.m in Sources */,
+				64BF347615DD01280022FA31 /* VSClickWheelView.m in Sources */,
+				64BF347A15DD01470022FA31 /* ViewController.m in Sources */,
+				640C49FB15E008A300A35D32 /* UIColor+VSClickWheelExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6436AC5317C63AC4001DBEEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6436AC5417C63AC4001DBEEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6436AC6517C63AC5001DBEEA /* ExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6436AC6617C63AC5001DBEEA /* en */,
+			);
+			name = ExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+		64674F6315DD00CC0083404A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64674F6415DD00CC0083404A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64674F6F15DD00CC0083404A /* ExampleViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64674F7015DD00CC0083404A /* en */,
+			);
+			name = ExampleViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		64674F7215DD00CC0083404A /* ExampleViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64674F7315DD00CC0083404A /* en */,
+			);
+			name = ExampleViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6436AC6817C63AC5001DBEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSClickWheelExample/VSClickWheelExample-Prefix.pch";
+				INFOPLIST_FILE = "VSClickWheelExample/VSClickWheelExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6436AC6917C63AC5001DBEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSClickWheelExample/VSClickWheelExample-Prefix.pch";
+				INFOPLIST_FILE = "VSClickWheelExample/VSClickWheelExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		64674F7515DD00CC0083404A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64674F7615DD00CC0083404A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64674F7815DD00CC0083404A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSClickWheel/VSClickWheel-Prefix.pch";
+				INFOPLIST_FILE = "VSClickWheel/VSClickWheel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64674F7915DD00CC0083404A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSClickWheel/VSClickWheel-Prefix.pch";
+				INFOPLIST_FILE = "VSClickWheel/VSClickWheel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6436AC6A17C63AC5001DBEEA /* Build configuration list for PBXNativeTarget "VSClickWheelExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6436AC6817C63AC5001DBEEA /* Debug */,
+				6436AC6917C63AC5001DBEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64674F5015DD00CC0083404A /* Build configuration list for PBXProject "VSClickWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64674F7515DD00CC0083404A /* Debug */,
+				64674F7615DD00CC0083404A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64674F7715DD00CC0083404A /* Build configuration list for PBXNativeTarget "VSClickWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64674F7815DD00CC0083404A /* Debug */,
+				64674F7915DD00CC0083404A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64674F4D15DD00CC0083404A /* Project object */;
+}
