@@ -1,2 +1,2 @@
-VSClickView
+VSClickWheel
 ===========
