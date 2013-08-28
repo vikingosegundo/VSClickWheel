@@ -11,8 +11,6 @@
 
 @interface ExampleViewController () <VSClickWheelViewDelegate>
 @property (nonatomic, strong) NSMutableArray *digitLabels;
-@property (nonatomic, strong) NSMutableArray *digitValues;
-
 @property (nonatomic, strong) NSMutableArray *digitTapGestureControllers;
 @property (nonatomic, strong) IBOutlet VSClickWheelView *clickWheel;
 @property NSUInteger tappedDigitIdx;
@@ -46,18 +44,16 @@ static NSUInteger kNumberOfDigits = 5;
 {
     self.digitLabels = [@[] mutableCopy] ;
     self.digitTapGestureControllers = [@[] mutableCopy];
-    self.digitValues = [@[] mutableCopy];
     
     for (NSUInteger i =0 ; i< kNumberOfDigits; ++i) {
         [self.digitLabels addObject: [[UILabel alloc] initWithFrame:CGRectZero]];
         [self.digitTapGestureControllers addObject:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(digitTapped:)]];
-        [self.digitValues addObject:@0];
         
     }
     
     [self.digitLabels enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(UILabel *label, NSUInteger idx, BOOL *stop) {
         if(idx == [self.digitLabels count] -1) {
-            label.frame = CGRectMake((self.view.frame.size.width / 2) - ([self.digitValues count] * 35 / 2) , 100, 35, 45);
+            label.frame = CGRectMake((self.view.frame.size.width / 2) - (kNumberOfDigits * 35 / 2) , 100, 35, 45);
             
         } else {
             UILabel *previousLabel = self.digitLabels[idx + 1];
@@ -68,7 +64,7 @@ static NSUInteger kNumberOfDigits = 5;
         [self.view addSubview:label];
         [label setFont:[UIFont fontWithName:[label.font fontName] size:35]];
         label.textAlignment = NSTextAlignmentCenter;
-        label.text = [NSString stringWithFormat:@"%@", self.digitValues[idx]];
+        label.text =@"0";
         [label addGestureRecognizer:self.digitTapGestureControllers[idx]];
         [label setUserInteractionEnabled:YES];
     }];
@@ -92,13 +88,12 @@ static NSUInteger kNumberOfDigits = 5;
     [_clickWheel  setFillColor:[UIColor colorWithWhite:.7 alpha:1]];
     [_clickWheel  setKnobFillColor1:[UIColor colorWithWhite:1.0 alpha:1]];
     [_clickWheel  setKnobFillColor2:[UIColor colorWithWhite:.5 alpha:1]];
-
+    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 -(void)activateDigitWithIndex:(NSUInteger) idx
@@ -122,7 +117,7 @@ static NSUInteger kNumberOfDigits = 5;
 
 -(void)reloadDigitLabels
 {
-    NSString *format = [NSString stringWithFormat:@"%%0%dd", [self.digitValues count]];
+    NSString *format = [NSString stringWithFormat:@"%%0%dd", kNumberOfDigits];
     NSString *string = [NSString stringWithFormat:format, self.value];
     
     NSMutableString *reversedString = [NSMutableString stringWithCapacity:[string length]];
@@ -141,7 +136,7 @@ static NSUInteger kNumberOfDigits = 5;
 -(void)tickUpOnClickWheelView:(VSClickWheelView *)clickWheelView
 {
     NSUInteger x = (NSUInteger)(self.value + pow(10, _tappedDigitIdx));
-    if(x < pow(10, [self.digitValues count]))
+    if(x < pow(10, kNumberOfDigits))
         self.value = x;
     [self reloadDigitLabels];
 }
