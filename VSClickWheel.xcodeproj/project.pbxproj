@@ -35,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6405BEC417CE28FF009D4327 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		640C49F915E008A300A35D32 /* UIColor+VSClickWheelExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+VSClickWheelExtension.h"; sourceTree = "<group>"; };
 		640C49FA15E008A300A35D32 /* UIColor+VSClickWheelExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VSClickWheelExtension.m"; sourceTree = "<group>"; };
 		6436AC4C17C63AC4001DBEEA /* VSClickWheelExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSClickWheelExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +124,7 @@
 		64674F4B15DD00CC0083404A = {
 			isa = PBXGroup;
 			children = (
+				6405BEC417CE28FF009D4327 /* README.md */,
 				645CB17D173413A000C03FFF /* Default-568h@2x.png */,
 				640C49F915E008A300A35D32 /* UIColor+VSClickWheelExtension.h */,
 				640C49FA15E008A300A35D32 /* UIColor+VSClickWheelExtension.m */,
