@@ -226,6 +226,11 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Manuel Meyer";
+				TargetAttributes = {
+					6436AC4B17C63AC4001DBEEA = {
+						DevelopmentTeam = D7M59H87A2;
+					};
+				};
 			};
 			buildConfigurationList = 64674F5015DD00CC0083404A /* Build configuration list for PBXProject "VSClickWheel" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -350,6 +355,7 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VSClickWheelExample/VSClickWheelExample-Prefix.pch";
@@ -369,6 +375,7 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VSClickWheelExample/VSClickWheelExample-Prefix.pch";
